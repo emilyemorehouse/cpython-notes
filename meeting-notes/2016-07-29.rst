@@ -1,0 +1,13 @@
+.. _2016-07-29:
+
+============================
+Meeting with Guido via Skype
+============================
+
+Quick meeting - Talked about what I've set up for internal docs and Allison's
+Bytecode talk from Pycon.
+
+Also talked about the Github issue that was created in the PyLadies repo.
+
+
+**Next meeting: 2016-08-03 at 10AM PST / 1PM EST**

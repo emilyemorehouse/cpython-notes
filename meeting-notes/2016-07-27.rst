@@ -1,0 +1,59 @@
+.. _2016-07-27:
+
+============================
+Meeting with Guido via Skype
+============================
+
+We're going to write an in-depth guide to the  codebase of CPython. Targeted
+towards people with programming knowledge. Ideally, a basis of C and Python
+knowledge.
+
+
+**Resource note:** `Allison Kaptur - Byterun: A (C)Python interpretor in Python
+<https://www.youtube.com/watch?v=HVUTjQzESeo>`_
+* PyCon 2015 talk
+Have you ever wondered how the CPython interpreter works? Do you know where to
+find a 1,500 line switch statement in CPython? I'll talk about the structure of
+the interpreter that we all use every day by explaining how Ned Batchelder and I
+chased down a mysterious bug in Byterun, a Python interpreter written in Python.
+We'll also see visualizations of the VM as it executes your code.
+
+Slides can be found at: `https://speakerdeck.com/pycon2015
+<https://speakerdeck.com/pycon2015>`_ and  `https://github.com/PyCon/2015-slides
+<https://github.com/PyCon/2015-slides>`_
+
+
+----------------------------
+Reference counts in CPython:
+----------------------------
+Essentially everything is an object. Each object contains a counter to keep
+track of the number of references made to that object. When the counter reaches
+0, there are no references being made to that object, which means that it can
+be deleted and its memory freed.
+
+
+----------------
+CPython's Malloc
+----------------
+CPython has its own custom memory management that is platform-specific in order
+to increase speed and efficiency. If the given platform that is being used does
+not have a custom memory management, it falls back to using the standard `malloc`.
+
+
+-----------------------
+Big Changes for CPython
+-----------------------
+CPython is moving from a privately hosted Mercurial repository to a Github
+repository. Translation of the repository is fairly straightforward as there
+are many tried and true translation tools that exist. The hardest part is
+moving all hooks.
+
+
+**Quick note**: Check out QuickTest for Haskell: uses fuzzing for testing.
+Talked about TDD - how it can be helpful, but can also be counter-intuitive
+because you often thing of the different edge cases that need to be tested
+while you're writing your code.
+
+
+
+**Next meeting: 2016-07-29 at 10AM PST / 1PM EST**
