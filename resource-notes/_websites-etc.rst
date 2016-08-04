@@ -16,7 +16,7 @@ Websites / etc
 
 * `The history of bool, True and False <http://python-history.blogspot.com/2013/11/the-history-of-bool-true-and-false.html>`_ by Guido van Rossum
 
-* `The story of None, True and False (and an explanation of literals, keywords and builtins thrown in)<http://python-history.blogspot.com/2013/11/story-of-none-true-false.html>`_ by Guido van Rossum
+* `The story of None, True and False (and an explanation of literals, keywords and builtins thrown in) <http://python-history.blogspot.com/2013/11/story-of-none-true-false.html>`_ by Guido van Rossum
 
 * `Method Resolution Order <http://python-history.blogspot.com/2010/06/method-resolution-order.html>`_ by Guido van Rossum
 

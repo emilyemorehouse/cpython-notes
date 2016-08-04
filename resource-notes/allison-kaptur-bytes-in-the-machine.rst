@@ -2,7 +2,7 @@
 Byterun: A (C)Python interpreter in Python
 ============================================================
 
-`Allison Kaptur - Byterun: A (C)Python interpreter in Python<https://www.youtube.com/watch?v=HVUTjQzESeo>`_
+`Allison Kaptur - Byterun: A (C)Python interpreter in Python <https://www.youtube.com/watch?v=HVUTjQzESeo>`_
 
 **PyCon 2015 talk:**
 Have you ever wondered how the CPython interpreter works? Do you know where to
@@ -11,7 +11,7 @@ the interpreter that we all use every day by explaining how Ned Batchelder and I
 chased down a mysterious bug in Byterun, a Python interpreter written in Python.
 We'll also see visualizations of the VM as it executes your code.
 
-Slides can be found at: `https://speakerdeck.com/pycon2015<https://speakerdeck.com/pycon2015>`_ and  `https://github.com/PyCon/2015-slides<https://github.com/PyCon/2015-slides>`_
+Slides can be found at: `https://speakerdeck.com/pycon2015 <https://speakerdeck.com/pycon2015>`_ and  `https://github.com/PyCon/2015-slides <https://github.com/PyCon/2015-slides>`_
 
 
 The Python Interpreter: the last step in the process of running a Python program
