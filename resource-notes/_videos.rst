@@ -9,6 +9,7 @@ Videos
 		structure of the interpreter that we all use every day by explaining how Ned Batchelder and I chased down a mysterious bug in Byterun, a Python
 		interpreter written in Python. We'll also see visualizations of the VM as it executes your code.
 	- Slides can be found at: `https://speakerdeck.com/pycon2015 <https://speakerdeck.com/pycon2015>`_ and `https://github.com/PyCon/2015-slides <https://github.com/PyCon/2015-slides>`_
+	- ** *Watched on 2016-07-29* **
 
 
 * `Allison Kaptur - Exploring is never boring: understanding CPython without reading the code <https://www.youtube.com/watch?v=ZSIRGLmQTLk>`_
